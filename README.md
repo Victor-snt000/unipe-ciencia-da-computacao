@@ -1,14 +1,14 @@
 # Ciência da Computação - UNIPÊ
 
-Repositório com as atividades, projetos e materiais da minha graduação em Ciência da Computação na UNIPÊ. Organizado por período e matéria, funcionando também como um portfólio dos trabalhos desenvolvidos ao longo do curso.
+Repositório com as atividades, projetos e materiais da minha graduação em Ciência da Computação na UNIPÊ. Organizado por semestre e disciplina, funcionando também como um portfólio dos trabalhos desenvolvidos ao longo do curso.
 
 ## Estrutura
 
-Cada período tem sua própria pasta, contendo as matérias cursadas naquele semestre. Dentro de cada matéria ficam as atividades desenvolvidas.
+Cada semestre tem sua própria pasta, contendo as disciplinas cursadas naquele período. Dentro de cada disciplina ficam as atividades desenvolvidas.
 
 ```
 unipe-ciencia-da-computacao/
-└── 2026-2/
-    └── desenvolvimento-frontend/
-        └── atividade-html/
+└── semestre/
+    └── disciplina/
+        └── atividade/
 ```

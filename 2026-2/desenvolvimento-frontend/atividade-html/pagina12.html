@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta name="author" content="Israel Cunha" />
+    <meta name="keywords" content="css, html, php, webstandards" />
+    <meta name="description" content="Descrição do conteúdo da página" />
+    <title>Fieldset e Legend</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="pagina02.html">Marcação de Texto</a></li>
+        <li><a href="pagina03.html">Lista Ordenada</a></li>
+        <li><a href="pagina04.html">Lista Não Ordenada</a></li>
+        <li><a href="pagina05.html">Imagens</a></li>
+        <li><a href="pagina06.html">Links</a></li>
+        <li><a href="pagina07.html">Vídeo</a></li>
+        <li><a href="pagina08.html">Tabelas</a></li>
+        <li><a href="pagina09.html">Tabela Completa</a></li>
+        <li><a href="pagina10.html">Formulário</a></li>
+        <li><a href="pagina11.html">Radio e Checkbox</a></li>
+        <li><a href="pagina12.html">Fieldset e Legend</a></li>
+      </ul>
+    </nav>
+
+    <h2>Área de Texto</h2>
+    <p>Observações:<textarea name="obs" cols="20" rows="5"></textarea></p>
+
+    <h2>Formulário completo (fieldset, legend, label)</h2>
+    <fieldset>
+      <legend>Dados pessoais</legend>
+      <label>Nome:<input type="text" name="nome2" /></label><br />
+      <label>Idade:<input type="text" name="idade" /></label><br />
+    </fieldset>
+    <fieldset>
+      <legend>Dados profissionais</legend>
+      <label
+        >Escolaridade:
+        <select name="escolaridade2">
+          <option value="em">Ensino Médio</option>
+          <option value="nt">Nível Técnico</option>
+          <option value="ns">Nível Superior</option>
+        </select>
+      </label>
+      <br />
+      <label
+        >Área de atuação
+        <input type="radio" name="cargo2" value="1" checked /> Gerência
+        <input type="radio" name="cargo2" value="2" /> Financeiro
+        <input type="radio" name="cargo2" value="3" /> Recepção
+      </label>
+    </fieldset>
+  </body>
+</html>

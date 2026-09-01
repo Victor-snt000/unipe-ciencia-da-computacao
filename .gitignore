@@ -1,0 +1,45 @@
+# === Sistema Operacional ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Editores / IDEs ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Node / JavaScript ===
+node_modules/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# === C / C++ ===
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+
+# === Java ===
+*.class
+target/
+*.jar
+*.war
